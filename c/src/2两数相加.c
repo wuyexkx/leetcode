@@ -137,7 +137,14 @@ struct ListNode* strs_to_ListNode(char* strs)
 
 void print_ListNode(const struct ListNode* l)
 {
-    // 0 1 2 3 -> 1 2 3 0  2 3 1 0  3 2 1 0
+//  p           q       p           q     p        q        p     q          p  q
+//  |           |       |           |     |        |        |     |          |  |
+//  v           v       v           v     v        v        v     v          v  v
+//  0  1  2  3 [ ] ->   1  2  3 [ ] 0     2  3 [ ] 1  0     3 [ ] 2  1  0   [ ] 3  2  1  0  
+//               ^                   ^              ^              ^             ^
+//               |                   |              |              |             |
+//               pv                  pv             pv             pv            pv
+
     // struct ListNode* prev;
     // struct ListNode* p1 = l;
     // struct ListNode* p2 = NULL;  
