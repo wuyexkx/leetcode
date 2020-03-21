@@ -16,7 +16,7 @@ int lengthOfLongestSubstring(char * s){
     }
     return max_length;
 }
-
+// // 跟上面一样，加了注释而已
 // // 滑动窗口实现，用类似两个指针start和i，还有映射去保存字符的索引
 // int lengthOfLongestSubstring(char * s){
 //     // c语言中没有max，需要自己定义
