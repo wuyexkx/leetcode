@@ -4,7 +4,7 @@
 # exe文件名称
 TARGET = main.exe
 # 源文件 $(wildcard ./src/*.c) $(wildcard ./*.c) 
-SRCS = $(wildcard src/*.c) main.c
+SRCS = $(wildcard src/*.c) 
 # 头文件
 INCS = -I./include
 BUILD = ./build
