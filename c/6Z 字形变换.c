@@ -1,5 +1,7 @@
 #include <stdlib.h>
 
+// https://www.lagou.com/lgeduarticle/10705.html
+
 // 模拟法，行列存储在二维数组里，占内存
 char * convert(char * s, int numRows){
     // 一行直接返回
